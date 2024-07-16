@@ -2,3 +2,13 @@
 edition = "2021"
 name = "leap"
 version = "1.6.0"
+
+[dependencies]
+
+[lib]
+name = "leap"
+path = "src/lib.rs"
+
+[[bin]]
+name = "leap"
+path = "src/main.rs"
