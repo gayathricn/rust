@@ -4,3 +4,11 @@ name = "nth_prime"
 version = "2.1.0"
 
 [dependencies]
+
+[lib]
+name = "nth_prime"
+path = "src/lib.rs"
+
+[[bin]]
+name = "nth_prime"
+path = "src/main.rs"
