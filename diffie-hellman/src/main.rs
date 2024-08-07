@@ -1,5 +1,7 @@
-diffie-hellman::secret;
+use diffie_hellman::secret;
 fn main(){
-    let number: u64 = 0;
-    println!("The count is: {:?}", secret(number));
+    let p: u64 = 23;   
+    let b_pub: u64 = 5;
+    let a: u64 = 6;
+    println!("The secret is: {}", secret(p, b_pub, a));
 }

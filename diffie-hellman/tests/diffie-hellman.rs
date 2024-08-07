@@ -13,8 +13,7 @@ fn private_key_in_range_key() {
 }
 
 #[test]
-#[ignore]
-fn public_key_correct() {
+ fn public_key_correct() {
     let p: u64 = 23;
     let g: u64 = 5;
 
@@ -25,8 +24,7 @@ fn public_key_correct() {
 }
 
 #[test]
-#[ignore]
-fn secret_key_correct() {
+ fn secret_key_correct() {
     let p: u64 = 11;
 
     let private_key_a = 7;
@@ -38,8 +36,7 @@ fn secret_key_correct() {
 }
 
 #[test]
-#[ignore]
-fn public_key_correct_big_numbers() {
+ fn public_key_correct_big_numbers() {
     let p: u64 = 4_294_967_299;
 
     let g: u64 = 8;
@@ -52,8 +49,7 @@ fn public_key_correct_big_numbers() {
 }
 
 #[test]
-#[ignore]
-fn secret_key_correct_big_numbers() {
+ fn secret_key_correct_big_numbers() {
     let p: u64 = 4_294_967_927;
 
     let private_key_a = 4_294_967_300;
@@ -125,8 +121,7 @@ fn changed_secret_key_biggest_numbers() {
 }
 
 #[test]
-#[ignore]
-fn changed_secret_key() {
+ fn changed_secret_key() {
     let p: u64 = 13;
     let g: u64 = 11;
 
